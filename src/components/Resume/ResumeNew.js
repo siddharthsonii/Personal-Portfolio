@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/Siddharth_Soni.pdf";
+import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,15 +10,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
-  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
 
   return (
     <div>
@@ -36,16 +31,10 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume justify-content-center">
-          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-            {Array.from(new Array(Math.ceil(numPages / 2)), (el, index) => (
-              <Row key={`row_${index}`} className="d-flex justify-content-center">
-                <Page key={`page_${index * 2 + 1}`} pageNumber={index * 2 + 1} scale={width > 786 ? 1.7 : 0.6} />
-                {index * 2 + 2 <= numPages && (
-                  <Page key={`page_${index * 2 + 2}`} pageNumber={index * 2 + 2} scale={width > 786 ? 1.7 : 0.6} />
-                )}
-              </Row>
-            ))}
+        <Row className="resume">
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
