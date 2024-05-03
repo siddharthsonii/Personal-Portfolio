@@ -38,8 +38,10 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex justify-content-center">
-            {Array.from(new Array(numPages), (el, index) => (
-              <Page key={`page_${index + 1}`} pageNumber={index + 1} scale={width > 786 ? 1.7 : 0.6} />
+            {Array.from(new Array(numPages || 0), (el, index) => (
+              <Row key={`row_${index}`} className="page-row justify-content-center">
+                <Page key={`page_${index + 1}`} pageNumber={index + 1} scale={width > 786 ? 1.7 : 0.6} />
+              </Row>
             ))}
           </Document>
         </Row>
