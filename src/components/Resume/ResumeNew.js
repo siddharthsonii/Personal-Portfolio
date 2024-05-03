@@ -37,7 +37,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex justify-content-center">
+          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} style={{ margin: "0 auto" }}>
             {Array.from(new Array(Math.ceil(numPages / 2)), (el, index) => (
               <Row key={`row_${index}`} className="page-row justify-content-center">
                 <Page key={`page_${index * 2 + 1}`} pageNumber={index * 2 + 1} scale={width > 786 ? 1.7 : 0.6} />
