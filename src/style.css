@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.textColor {
+  color: var(--imp-text-color) !important;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -441,6 +445,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -541,7 +546,6 @@ button:focus {
 /* --------- */
 /* About */
 /* --------- */
-
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -598,10 +602,10 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
-
 .resume-section {
   position: relative !important;
   padding-top: 110px !important;

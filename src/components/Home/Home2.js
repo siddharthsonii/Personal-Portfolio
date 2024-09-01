@@ -25,7 +25,7 @@ function Home2() {
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> Javascript </b> and
-                <b className="purple"> PHP </b>
+                <b className="purple"> NodeJS </b>
               </i>
               <br />
               <br />

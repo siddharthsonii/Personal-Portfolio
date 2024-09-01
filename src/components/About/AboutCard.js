@@ -11,8 +11,6 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Siddharth Soni </span>
             from <span className="purple"> Jhansi, India.</span>
             <br />
-            {/* I am currently employed as a software developer at Juspay. */}
-            <br />
             I have completed B.Tech in Computer Science at IEC College Of Engineering And Technology, Greater Noida.
             <br />
             <br />
@@ -20,7 +18,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Learning new techs
             </li>
             <li className="about-activity">
               <ImPointRight /> Photography
