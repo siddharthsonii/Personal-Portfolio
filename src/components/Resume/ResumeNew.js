@@ -36,25 +36,23 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {Array.from(new Array(numPages), (el, index) => (
         <Row className="resume">
+        {Array.from(new Array(numPages), (el, index) => (
           <div className="d-flex justify-content-center">
             <Document
               file={pdf}
               onLoadSuccess={onDocumentLoadSuccess}
               className="d-flex justify-content-center"
             >
-              
-                <Page
-                  key={`page_${index + 1}`}
-                  pageNumber={index + 1}
-                  scale={width > 786 ? 1.7 : 0.6}
-                />
-              
+            <Page
+              key={`page_${index + 1}`}
+              pageNumber={index + 1}
+              scale={width > 786 ? 1.7 : 0.6}
+            />
             </Document>
           </div>
-        </Row>
         ))}
+        </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
