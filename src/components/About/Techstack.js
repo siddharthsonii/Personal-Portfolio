@@ -31,79 +31,79 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <FaHtml5 />
-        <h1 className="textColor">HTML5</h1>
+        <h3 className="textColor">HTML5</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaCss3 />
-        <h1 className="textColor">CSS3</h1>
+        <h3 className="textColor">CSS3</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJqueryLogo />
-        <h1 className="textColor">JQuery</h1>
+        <h3 className="textColor">JQuery</h3>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <FaReact />
-        <h1 className="textColor">React</h1>
+        <h3 className="textColor">React</h3>
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
-        <h1 className="textColor">Tailwind</h1>
+        <h3 className="textColor">Tailwind</h3>
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiVite />
-        <h1 className="textColor">Vite</h1>
+        <h3 className="textColor">Vite</h3>
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-        <h1 className="textColor">JavaScript</h1>
+        <h3 className="textColor">JavaScript</h3>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
-        <h1 className="textColor">TypeScript</h1>
+        <h3 className="textColor">TypeScript</h3>
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiNpm />
-        <h1 className="textColor">Npm</h1>
+        <h3 className="textColor">Npm</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-        <h1 className="textColor">NodeJS</h1>
+        <h3 className="textColor">NodeJS</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
-        <h1 className="textColor">ExpressJS</h1>
+        <h3 className="textColor">ExpressJS</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-        <h1 className="textColor">MongoDb</h1>
+        <h3 className="textColor">MongoDb</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
-        <h1 className="textColor">MySQL</h1>
+        <h3 className="textColor">MySQL</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
-        <h1 className="textColor">php</h1>
+        <h3 className="textColor">php</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCodeigniter />
-        <h1 className="textColor">Codeigniter</h1>
+        <h3 className="textColor">Codeigniter</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
-        <h1 className="textColor">Docker</h1>
+        <h3 className="textColor">Docker</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
-        <h1 className="textColor">Redis</h1>
+        <h3 className="textColor">Redis</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
-        <h1 className="textColor">AWS</h1>
+        <h3 className="textColor">AWS</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaGithub />
-        <h1 className="textColor">Github</h1>
+        <h3 className="textColor">Github</h3>
       </Col>
     </Row>
   );
