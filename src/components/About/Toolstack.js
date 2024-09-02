@@ -13,23 +13,23 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows11 />
-        <h2 className="textColor">Windows 11</h2>
+        <h3 className="textColor">Windows 11</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-        <h2 className="textColor">VS Code</h2>
+        <h3 className="textColor">VS Code</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
-        <h2 className="textColor">Postman</h2>
+        <h3 className="textColor">Postman</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
-        <h2 className="textColor">Slack</h2>
+        <h3 className="textColor">Slack</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
-        <h2 className="textColor">Vercel</h2>
+        <h3 className="textColor">Vercel</h3>
       </Col>
     </Row>
   );
