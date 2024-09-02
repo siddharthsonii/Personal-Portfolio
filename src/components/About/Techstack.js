@@ -23,6 +23,7 @@ import {
   FaCss3,
   FaReact, 
   FaAws,
+  FaGithub,
 } from "react-icons/fa";
 
 function Techstack() {
@@ -99,6 +100,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
         <h2 className="textColor">AWS</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+        <h2 className="textColor">Github</h2>
       </Col>
     </Row>
   );
