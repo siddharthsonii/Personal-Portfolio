@@ -17,6 +17,7 @@ import {
   SiVite,
   SiTypescript,
   SiTailwindcss,
+  SiElasticsearch,
 } from "react-icons/si";
 import {
   FaHtml5,
@@ -104,6 +105,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaGithub />
         <h3 className="textColor">Github</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+        <h3 className="textColor">Elasticsearch</h3>
       </Col>
     </Row>
   );
