@@ -23,7 +23,7 @@ This project was built using these technologies.
 
 - React.js
 - Node.js
-- Express.js
+- HTML
 - CSS3
 - VsCode
 - Vercel
