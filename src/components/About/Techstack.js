@@ -18,6 +18,7 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiElasticsearch,
+  SiPostgresql,
 } from "react-icons/si";
 import {
   FaHtml5,
@@ -81,6 +82,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
         <h3 className="textColor">MySQL</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <h3 className="textColor">Postgresql</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
