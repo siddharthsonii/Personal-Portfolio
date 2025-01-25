@@ -77,7 +77,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-        <h3 className="textColor">MongoDb</h3>
+        <h3 className="textColor">MongoDB</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
