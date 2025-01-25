@@ -85,7 +85,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-        <h3 className="textColor">Postgresql</h3>
+        <h3 className="textColor">PostgreSQL</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
