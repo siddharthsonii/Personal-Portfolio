@@ -16,7 +16,7 @@ import {
   SiRedis,
   SiVite,
   SiTypescript,
-  SiTailwindcss,
+  // SiTailwindcss,
   SiElasticsearch,
   SiPostgresql,
   SiGraphql,
