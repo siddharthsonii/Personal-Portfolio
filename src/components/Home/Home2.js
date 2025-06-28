@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Home2() {
   return (
@@ -36,7 +37,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">React.js, Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -58,6 +59,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/u/siddharthsonii/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/siddharthsonii"

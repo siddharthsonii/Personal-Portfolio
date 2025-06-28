@@ -19,6 +19,9 @@ import {
   SiTailwindcss,
   SiElasticsearch,
   SiPostgresql,
+  SiGraphql,
+  SiApachekafka,
+  SiMocha,
 } from "react-icons/si";
 import {
   FaHtml5,
@@ -44,28 +47,24 @@ function Techstack() {
         <h3 className="textColor">JQuery</h3>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <FaReact />
-        <h3 className="textColor">React</h3>
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
         <h3 className="textColor">Tailwind</h3>
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiVite />
-        <h3 className="textColor">Vite</h3>
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
         <h3 className="textColor">JavaScript</h3>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
         <h3 className="textColor">TypeScript</h3>
-      </Col> */}
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNpm />
         <h3 className="textColor">Npm</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaReact />
+        <h3 className="textColor">React</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -112,8 +111,24 @@ function Techstack() {
         <h3 className="textColor">Github</h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
+        <h3 className="textColor">GraphQL</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+        <h3 className="textColor">Kafka</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMocha />
+        <h3 className="textColor">Mocha</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiElasticsearch />
         <h3 className="textColor">Elasticsearch</h3>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
+        <h3 className="textColor">Vite</h3>
       </Col>
     </Row>
   );

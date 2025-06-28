@@ -6,6 +6,8 @@ import cloud from "../../Assets/Projects/cloud.png";
 import news from "../../Assets/Projects/news.png";
 import chat from "../../Assets/Projects/chat.png";
 import task from "../../Assets/Projects/task.png";
+import Persona_BOT from "../../Assets/Projects/Persona-BOT.png";
+import AI_Code from "../../Assets/Projects/AI_Code.png";
 
 function Projects() {
   return (
@@ -19,6 +21,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Persona_BOT}
+              isBlog={false}
+              title="Persona Bot with UI"
+              description="AI Chatbot project—a fun web app where you can chat with virtual versions of your favourite tech gurus, Hitesh Choudhary and Piyush Garg! Built with Python, Flask, and OpenAI's API, this chatbot lets you ask tech questions (or anything, really) and get responses in their signature style."
+              ghLink="https://github.com/siddharthsonii/Persona-Bot-UI.git"
+              demoLink="https://persona-bot-ui.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AI_Code}
+              isBlog={false}
+              title="AI Agent Code Generator: Your Coding Ka Jadoo"
+              description="AI Agent Code Generator, a Python-powered jugaadu tool that creates entire projects faster than your mom makes aloo paratha 🥟! Whether you want a React to-do list, a Flask calculator, or a Java Spring Boot app, this AI dost uses OpenAI’s magic to generate code files, install dependencies, and launch your app in a browser—all with a few clicks."
+              ghLink="https://github.com/siddharthsonii/AI-Code-Generator---AI-Agents.git"
+              // demoLink=""
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -49,7 +72,7 @@ function Projects() {
               title="News-Aggregator-API"
               description="A RESTful API using Node.js, Express.js, and NPM packages. This API will allow users to register, log in, and set their news preferences (e.g., categories, sources). This API will then fetch news articles from multiple sources using external news APIs (e.g., NewsAPI)."
               ghLink="https://github.com/siddharthsonii/News-Aggregator-API"
-              // demoLink=""              
+              // demoLink=""
             />
           </Col>
 
