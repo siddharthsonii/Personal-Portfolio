@@ -4,8 +4,17 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+// To stop console.log(rgba) from tsparticles->canvas.js
+const originalLog = console.log;
+console.log = (...args) => {
+  if (typeof args[0] === "string" && args[0].startsWith("rgba(")) return;
+  originalLog(...args);
+};
+
 ReactDOM.render(
-    <App />,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
