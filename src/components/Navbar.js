@@ -12,7 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import { SiMedium } from "react-icons/si";
+// import { SiMedium } from "react-icons/si";
 
 import { CgFileDocument } from "react-icons/cg";
 
